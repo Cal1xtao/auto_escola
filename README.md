@@ -25,3 +25,4 @@ public class auto_escola
 	}	
 		
 	}	
+![Diagrama auto escola](https://user-images.githubusercontent.com/101893557/166337767-4c3ce9a5-62cd-4f03-8f1a-f7dfbc046744.png)
