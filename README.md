@@ -1,28 +1,20 @@
-package auto_escola;
-import java.util.Scanner;
-public class auto_escola 
-{
+# cnh
+# início
+Se voce passou no teste psicologico digite 0, se nao passou digite 9:
+ler valor correspondente.
 
-	public static void main(String[] args) 
-	{
-		Scanner ler = new Scanner(System.in);
-		//Colocando variáveis
-		int psico, p1, exame,soma;
-		//Perguntando se passou no teste psicologico
-		System.out.printf("Se voce passou no teste psicologico digite 0, se nao passou digite 9:\n");
-		psico=ler.nextInt(); 
-		//Perguntando se passou na prova de legislação
-		System.out.printf("Se voce passou na prova de legislação digite 1, se nao passou digite 9:\n");
-		p1=ler.nextInt();
-		//Perguntando se passou no exame prático
-		System.out.printf("Se voce for deficiente fisico(a) digite 2, se nao for digite 9:\n");
-		exame=ler.nextInt();
-		soma=psico+p1+exame;
-		if (soma==3)
-			System.out.printf("Voce esta apto(a)");
-		else
-			System.out.printf("Voce nao esta apto(a)");
-	}	
-		
-	}	
+Se voce passou na prova de legislação digite 1, se nao passou digite 9:
+ler valor correspondente.
+
+Se voce for deficiente fisico(a) digite 2, se nao for digite 9:
+ler valor correspondente.
+
+Fazer soma dos valores correspondentes.
+
+Se  soma igual a 3 Faca.
+Aprovado(a).
+
+Se nao.
+Reprovad(a).
+
 ![Diagrama auto escola](https://user-images.githubusercontent.com/101893557/166337767-4c3ce9a5-62cd-4f03-8f1a-f7dfbc046744.png)
